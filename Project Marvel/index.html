@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Marvels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/images/marvel-logo.png" alt="Marvel Logo" class="logo">
+        <h1>The Marvels</h1>
+        <p>Get all the details about your favorite Marvel characters and their movies.</p>
+    </header>
+
+    <section id="character-selection">
+        <h2>Choose Your Favorite Marvel Character</h2>
+        <p>Click on the button of your favorite character to get their bio and history.</p>
+        <div id="character-buttons">
+            <!-- Buttons will be generated here by JavaScript -->
+        </div>
+    </section>
+
+    <section id="character-bio" style="display:none;">
+        <h2>Character Bio</h2>
+        <div id="bio-content">
+            <!-- Character bio content will be loaded here -->
+        </div>
+    </section>
+
+    <section id="movie-info">
+        <h2>Movie Information</h2>
+        <p>Enter a Marvel movie name to get its story and IMDb rating.</p>
+        <input type="text" id="movie-name" placeholder="Enter movie name">
+        <button id="fetch-movie-info">Get Movie Info</button>
+        <div id="movie-details">
+            <!-- Movie details will be displayed here -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
